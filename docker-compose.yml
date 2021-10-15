@@ -8,7 +8,7 @@ services:
     - ./server:/var/www # 開発ディレクトリと公開ディレクトリをマウント
 
   nginx: # WEBサーバのコンテナの設定
-    image: nginx # nginxの公式イメージを使用
+    image: s2110121/ecapp-nginx # nginxの公式イメージを使用
     container_name: nginx
     ports:
     - 80:80 # ゲストとホストそれぞれの80番ポートで接続
@@ -19,7 +19,7 @@ services:
     - php # nginxコンテナとphpコンテナを連携
 
   db: # DBサーバのコンテナの設定
-    image: mysql:5.7 # mysqlの公式イメージ使用
+    image: s2110121/ecapp_mysql:5.7 # mysqlの公式イメージ使用
     container_name: db-host
     environment: # DBの設定
       MYSQL_ROOT_PASSWORD: root
