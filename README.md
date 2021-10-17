@@ -7,9 +7,13 @@
 <a href="https://github.com/nakashi94" align=center>
   <img src="https://avatars.githubusercontent.com/u/87302837?size=75">
 </a>
+<a href="https://github.com/IPPEI2410" align=center>
+  <img src="https://avatars.githubusercontent.com/u/86973345?size=75">
+</a>
 </p>
 
 ***
 
 ## :eyes: Author
 * <a href="https://github.com/nakashi94">Nakashima Yuta</a>
+* <a href="https://github.com/IPPEI2410">Kodama Ippei</a>
