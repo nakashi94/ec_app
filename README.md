@@ -12,4 +12,4 @@
 ***
 
 ## :eyes: Author
-* 中島悠太
+* <a href="https://github.com/nakashi94">Nakashima Yuta</a>
